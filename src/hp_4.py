@@ -83,7 +83,7 @@ def fees_report(infile, outfile):
 # under the data directory.
 
 if __name__ == '__main__':
-    
+
     try:
         from src.util import get_data_file_path
     except ImportError:
